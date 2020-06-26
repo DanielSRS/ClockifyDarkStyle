@@ -1,0 +1,128 @@
+/* ==UserStyle==
+@name           ClockfyDarkStyle
+@version        0.1
+@description    A dark theme for Clockify
+@author         DanielSRS
+@namespace      https://github.com/DanielSRS
+@updateURL      https://github.com/DanielSRS/ClockifyDarkStyle/blob/master/styles/clockifyDarkStyle.user.css
+@license        MIT
+==/UserStyle== */
+@-moz-document url-prefix("clockify.me") {
+    .cl-layout-aside {
+        background-color: #000;
+    }
+    .cl-offcanvas-collapse {
+        background: #000;
+    }
+    .cl-sidebar-container .cl-nav-item.cl-active .cl-nav-link,
+    .cl-sidebar-container .cl-nav-link.cl-active {
+        background: #161717;
+    }
+    .cl-navbar-light .cl-navbar-nav .cl-active > .cl-nav-link,
+    .cl-navbar-light .cl-navbar-nav .cl-nav-link.cl-active,
+    .cl-navbar-light .cl-navbar-nav .cl-nav-link.cl-show,
+    .cl-navbar-light .cl-navbar-nav .cl-show > .cl-nav-link {
+        color: rgba(255, 255, 255, .7);
+    }
+    .cl-nav-icon-wrapper img {
+        filter: invert(1);
+    }
+    body {
+        background: #1a1a1b
+    }
+    .cl-card {
+        background-color: #000;
+        border: 1px solid #252829;
+    }
+    .cl-card-header {
+        background-color: #262829;
+        border-bottom: 1px solid #262829;
+    }
+    .cl-form-control {
+        background-color: #151515
+    }
+    td .cl-main-horizontal-chart-container--label {
+        color: #d9d9d9
+    }
+    span {
+        color: #d9d9d9;
+    }
+    .cl-main-horizontal-chart-container--progress--bar {
+        background: #0c0c0c;
+    }
+    div.cl-ml-2 {
+        color: #d9d9d9;
+    }
+    .cl-bg-white {
+        background-color: #000000!important;
+    }
+    .cl-text-dark,
+    .cl-cut-text {
+        color: #d9d9d9!important;
+    }
+    .cl-btn-outline-light,
+    .cl-btn-outline-light.cl-active,
+    .cl-show > .cl-btn-outline-light.cl-dropdown-toggle {
+        border-color: #222425;
+        color: #a9a9a9;
+        background: #000;
+    }
+    .cl-collapse-nav-button {
+        background: black
+    }
+    .cl-redesign .cl-h1,
+    .cl-redesign h1,
+    .modal-dialog .cl-h1,
+    .modal-dialog h1 {
+        color: #a9a9a9!important;
+    }
+    .cl-redesign [type=text],
+    .modal-dialog [type=text] {
+        color: #a9a9a9;
+    }
+    .cl-redesign .cl-input-time-picker-sum,
+    .modal-dialog .cl-input-time-picker-sum {
+        color: #a9a9a9!important;
+    }
+    .cl-btn-outline-light.cl-dropdown-toggle:disabled,
+    .cl-btn-outline-light.cl-dropdown-toggle:disabled:hover,
+    input[type=number]:disabled,
+    input[type=number]:disabled:hover,
+    input[type=text]:disabled,
+    input[type=text]:disabled:hover,
+    textarea:disabled,
+    textarea:disabled:hover {
+        color: #a9a9a9!important;
+    }
+    .cl-badge-same-entries,
+    .cl-badge-tag {
+        background: #070808;
+    }
+    .cl-dropdown-menu {
+        background-color: #000;
+    }
+    .cl-dropdown-item {
+        color: #b5b5b5;
+        background-color: black;
+    }
+    .cl-dropdown-item.cl-active,
+    .cl-dropdown-item:active {
+        color: #c7c5c5;
+        background-color: #101010;
+    }
+    .cl-border-light {
+        border-color: #191a1b!important;
+    }
+    .cl-border-bottom {
+        border-bottom: 1px solid #252829!important;
+    }
+    .cl-dropdown-divider {
+        border-color: #202223;
+    }
+    .cl-dropdown-ws .cl-dropdown-ws-footer {
+        background: #000;
+    }
+    .cl-sidebar-container .cl-nav-item:before {
+        background: #121213;
+    }
+}
